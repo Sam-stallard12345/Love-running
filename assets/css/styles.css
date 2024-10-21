@@ -95,8 +95,15 @@ nav {
 }
 
 main {
-    background-color: blueviolet;
     flex: 1 0 auto;
+    margin-top: 47px;
+    top: 100%;
+}
+
+#hero {
+    height: 700px;
+    width:100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 #social-networks {
