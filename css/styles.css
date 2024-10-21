@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Silkscreen:wght@400;700&display=swap');
+  
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}  
+
+.oswald-unique {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
+body {
+    font: '.lato-light';
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 
 header {
     background-color: lightcoral;
@@ -13,8 +35,11 @@ header {
 
 main {
     background-color: blueviolet;
+    flex: 1 0 auto;
 }
 
 footer {
     background-color: green;
+    display: flexbox;
+    bottom: 0;
 }
