@@ -124,6 +124,7 @@ main {
 #reasons {
     width: 90vw;
     margin: 20px auto;
+    font-size: 150%;
 }
 
 #reasons h2 {
@@ -179,6 +180,17 @@ main {
 #circle-image {
     justify-content: center;
     align-items: center;
+}
+
+#meetups {
+    width: 90vw;
+    text-align: left;
+    font-size: 280%;
+    margin-left: 15px;
+}
+
+#meetups div {
+    margin-bottom: 20px;
 }
 
 footer {
