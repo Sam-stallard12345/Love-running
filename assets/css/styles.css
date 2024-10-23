@@ -35,6 +35,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -189,6 +193,7 @@ main {
     
 }
 
+
 #meetups div {
     margin-bottom: 20px;
 }
@@ -212,6 +217,20 @@ main {
     color: #fafafa;
 }
 
+#gallery {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#gallery-column {
+    line-height: 0;
+}
+
+#gallery-column img {
+    width: 100%;
+    line-height: 1em;
+}
+
 footer {
     box-shadow: 0px 2px 6px #4a4a4a;
 }
@@ -232,12 +251,6 @@ footer {
 
 
 
-@media screen and (max-width: 468px) {
-    #benefits > div {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 /* Applies to tablets and larger */
 @media screen and (min-width: 768px) {
@@ -300,22 +313,18 @@ footer {
     #benefits-physical {
         order: 1;
         align-self: flex-start;
-        width: 30%;     
+          
     }
 
     #benefits-image{
         order: 2;
         align-self: center;
-        width: 25%;
+        min-width: 200px;
     }
 
     #benefits-mental {
         order: 3;
-        width: 30%;
-    }
-    
-    footer {
-        margin-top: 25px;
         
     }
+    
 }   
