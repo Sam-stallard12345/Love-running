@@ -33,22 +33,26 @@
     </header>
     <main>
         <section id="sign_up">
-            
-                <h1><i class="fa-solid fa-heart"></i>Let's Get You Signed Up!</h1>
                 <form action="https://formdump.codeinstitute.net" method="post" id="signup-form" >
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname" required><br>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname" required><br>
-                    <label for="enail">Email Address</label>
-                    <input type="email" id="email" name="email" required><br>
-                    <input type="radio" id="road" name="fav_conditions" required>
-                    <label for="road">Road</label><br>
-                    <input type="radio" id="trail" name="fav_conditions">
-                    <label for="trail">Trail</label><br>
-                    <input type="radio" id="both" name="fav_conditions">
-                    <label for="both">Both</label><br>
-                    <button type="submit">Let's Run!</button>
+                    <h2><i class="fa-solid fa-heart"></i>Let's Get You Signed Up!</h2>
+                    <div class="text-input"></div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
+                        <label for="enail">Email Address</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div class="radio-buttons">
+                        <input type="radio" id="road" name="fav_conditions" required checked>
+                        <label for="road">Road</label><br>
+                        <input type="radio" id="trail" name="fav_conditions" required>
+                        <label for="trail">Trail</label><br>
+                        <input type="radio" id="both" name="fav_conditions" required>
+                        <label for="both">Both</label><br>
+                    </div>    
+                    
+                    <button type="submit" class="join-button">Submit</button>
 
                 </form>    
             
