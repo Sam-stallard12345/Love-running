@@ -8,7 +8,6 @@
 
 .oswald-unique {
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -163,7 +162,7 @@ main {
 #benefits-physical {
     order: 1;
     padding: 0 20px;
-    align-items: left;
+    
     text-align: left;
     margin-bottom: 20px;
     margin-right: 15vw;
@@ -173,7 +172,7 @@ main {
     order: 3;
     padding: 0 20px;
     text-align: right;
-    align-items: right;
+    
     margin-bottom: 20px;
     margin-left: 15vw;
 }
